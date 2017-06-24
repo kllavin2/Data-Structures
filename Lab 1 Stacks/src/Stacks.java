@@ -10,14 +10,18 @@
  *----------------------------------------------------------------*/
 
 import java.io.*;
-public class Stacks {
+public class Stacks 
+{
 
-   public static void main(String args[]) throws IOException {
-	   try (BufferedReader br = new BufferedReader(new FileReader("Input.txt"))) {
+   public static void main(String args[]) throws IOException 
+   {
+	   try (BufferedReader br = new BufferedReader(new FileReader("Input.txt"))) 
+	   {
 		   String line = null;
-		   while ((line = br.readLine()) != null) {
+		   while ((line = br.readLine()) != null) 
+		   {
 		       System.out.println(line);
 		   }
-		}
+	   }
    }
-   }
+}
