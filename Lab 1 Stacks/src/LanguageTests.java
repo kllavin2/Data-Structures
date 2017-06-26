@@ -36,6 +36,11 @@ public class LanguageTests {
 		}
 		
 		//Run language test
+		if (aStack.isEmpty() && bStack.isEmpty())
+		{
+			result=false; 
+		}
+		
 		while (!aStack.isEmpty() && !bStack.isEmpty())
 		{
 			Character a = aStack.pop();
@@ -43,9 +48,13 @@ public class LanguageTests {
 			if (a == null || b == null)
 			{
 				result = false;
-			}			
-		}
+			}
+			if(aStack.getSize()==bStack.getSize())
+			{
+				result= true;
+			}
 		
+		}
 		if (!otherStack.isEmpty())
 		{
 			result = false;
@@ -57,6 +66,8 @@ public class LanguageTests {
 	public static boolean testL2(String s)
 	{
 		boolean result = true;
+		
+		
 		//Do code here
 		System.out.println("TODO: WRITE THIS FUNCTION!");		
 		return result;
