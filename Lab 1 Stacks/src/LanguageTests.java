@@ -49,10 +49,6 @@ public class LanguageTests {
 			{
 				result = false;
 			}
-			if(aStack.getSize()==bStack.getSize())
-			{
-				result= true;
-			}
 		
 		}
 		if (!otherStack.isEmpty())
