@@ -10,8 +10,6 @@ public class StrStacks {
 	int top; //Top (current size) of the stack
 	Character A[]; //Character array to store the data
 	
-	
-	
 	/*
 	 * Creates a new stack of characters in a string 
 	 */

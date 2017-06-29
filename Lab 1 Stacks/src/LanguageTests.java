@@ -75,10 +75,10 @@ public class LanguageTests {
 		boolean newStack=true;//Check first item on top of stack
 		boolean poppedLetterA=false;//Check if character is A
 		
-		//Declare stacks
 		StrStacks L2Stack = new StrStacks(DEFAULT_STACK_SIZE);
 		StrStacks aStack = new StrStacks(DEFAULT_STACK_SIZE);
 		StrStacks bStack = new StrStacks(DEFAULT_STACK_SIZE);
+		
 				
 				
 		//Populate Stacks
@@ -226,7 +226,7 @@ public class LanguageTests {
 	
 	/*
 	 * This function tests whether or not the given string is in L4.
-	 * L4 = { w: w is of the form (AnBm)p, for some m,n,p > 0 } 
+	 * L4 = { w: w is of the form (AnBm)^p, for some m,n,p > 0 } 
 	 * @param s String to test against L1 criteria
 	 * @return result Boolean result of test.
 	 */
@@ -282,13 +282,14 @@ public class LanguageTests {
 		while(!rptStack.isEmpty())
 		{
 			Character c = rptStack.pop();
-			if(c == 'A'){
-				
+			if(c == 'A')
+			{
+				poppedLetterA = true; 
 			}
 		}
 	
 		//Disqualify if 'A' does not equal '2B'
-		while (!aStack.isEmpty() || !bStack.isEmpty())
+		/*while (!aStack.isEmpty() || !bStack.isEmpty())
 		{
 			Character a = aStack.pop();
 			Character b = bStack.pop();
@@ -299,7 +300,7 @@ public class LanguageTests {
 			}
 					
 		}
-			
+		*/	
 		return result;
 		
 	}
