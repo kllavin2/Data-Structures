@@ -229,87 +229,219 @@ public class LanguageTests {
 	 * L4 = { w: w is of the form (AnBm)^p, for some m,n,p > 0 } 
 	 * @param s String to test against L1 criteria
 	 * @return result Boolean result of test.
-	 */
-	
+	 */	
 	public static boolean testL4(String s)
 	{
 		boolean result = true; //Assume string passes test
 		boolean newStack=true;//Check first item on top of stack
-		boolean poppedLetterA=false;//Check if character is A
 		
 		//Declare stacks
-		StrStacks L3Stack = new StrStacks(DEFAULT_STACK_SIZE);
+		StrStacks l4Stack = new StrStacks(DEFAULT_STACK_SIZE);
 		StrStacks aStack = new StrStacks(DEFAULT_STACK_SIZE);
 		StrStacks bStack = new StrStacks(DEFAULT_STACK_SIZE);
-		StrStacks rptStack= new StrStacks(DEFAULT_STACK_SIZE);
-							
+		StrStacks aStack2 = new StrStacks(DEFAULT_STACK_SIZE);
+		StrStacks bStack2 = new StrStacks(DEFAULT_STACK_SIZE);
+		
 		//Populate Stacks
 		for (int index = 0; index < s.length(); index++)
 		{
 			Character c = s.charAt(index);
-			L3Stack.push(c);
+			l4Stack.push(c);
 		}
 		
-		//Run language test		
-		if (L3Stack.isEmpty())
+		//Run language test
+		//Check if empty
+		if (l4Stack.isEmpty())
 		{
 			result=false; 
 		}
 		
-		while(!L3Stack.isEmpty())
+		
+		while(!l4Stack.isEmpty())
 		{
-			Character c = L3Stack.pop();
+			Character c = l4Stack.pop();
 			
 			//Disqualify if top of fresh stack is not 'B'
 			if(c!='B' && newStack)
 			{
 				result = false;
-			}
-			
+			}			
 			newStack = false;
-			//Disqualify if top of stack is not 'A' or 'B'
+			
+			//Disqualify if character is not 'A' or 'B'
 			if(c!='A'&& c!='B')
 			{
 				result = false; 
-			}
-			//Pushes 'A' and 'B' onto rptStack
-			if (c == 'A' || c == 'B')
+			}			
+			
+			//"New" P segment
+			if (c == 'B' && !aStack.isEmpty())
 			{
-				rptStack.push(c);
+				//Start "P" check
+				if (aStack2.isEmpty() && bStack2.isEmpty() && l4Stack.isEmpty())
+				{
+					//Do nothing, P == 1
+					
+				}
+				else if (aStack2.isEmpty() && bStack2.isEmpty())
+				{
+					//Start of main stack
+					while (!aStack.isEmpty())
+					{
+						aStack2.push(aStack.pop());
+						
+					}
+
+					while (!bStack.isEmpty())
+					{
+						bStack2.push(bStack.pop());
+					}
+				}
+				else
+				{
+					//Compare a/a2 and b/b2 stacks (P values)
+					StrStacks aTemp = new StrStacks(DEFAULT_STACK_SIZE);
+					StrStacks bTemp = new StrStacks(DEFAULT_STACK_SIZE);
+					while (!aStack.isEmpty() || !bStack.isEmpty() || !aStack2.isEmpty() || !bStack2.isEmpty())
+					{
+						Character a, b, a2, b2;
+						a = aStack.pop();
+						b = bStack.pop();
+						a2 = aStack2.pop();
+						b2 = bStack2.pop();
+						aTemp.push(a);
+						bTemp.push(b);
+						if (a != a2 || b != b2)
+						{
+							result = false;
+						}						
+					}
+					
+					//Repopulate Prev Stacks
+					while (!aTemp.isEmpty())
+					{
+						aStack2.push(aTemp.pop());
+						
+					}
+					while (!bTemp.isEmpty())
+					{
+						bStack2.push(bTemp.pop());
+					}					
+				}
+			}
+			
+			//Populate stacks
+			if (c == 'A')
+			{
+				aStack.push(c);
+			}
+			else if (c == 'B')
+			{
+				bStack.push(c);
 			}
 		}	
-		
-		while(!rptStack.isEmpty())
-		{
-			Character c = rptStack.pop();
-			if(c == 'A')
-			{
-				poppedLetterA = true; 
-			}
-		}
-	
-		//Disqualify if 'A' does not equal '2B'
-		/*while (!aStack.isEmpty() || !bStack.isEmpty())
-		{
-			Character a = aStack.pop();
-			Character b = bStack.pop();
-			Character b2= bStack.pop();
-			if (a == null || b == null || b2== null)
-			{
-				result = false;
-			}
-					
-		}
-		*/	
 		return result;
 		
 	}
 	
+	/*
+	 * This function tests whether or not the given string is in L5.
+	 * L5 = { w: w follows a Fibonacci sequence for alternating A's and B's for any string with length > 3. e.g. ABAABBBAAAAA } 
+	 * @param s String to test against L5 criteria
+	 * @return result Boolean result of test.
+	 */
 	public static boolean testL5(String s)
 	{
 		boolean result = true;
-		//Do code here
-		System.out.println("TODO: WRITE THIS FUNCTION!");		
+		boolean newStack=true;//Check first item on top of stack		
+		Character f1;
+		f1 = null;
+		boolean singleRun = true;
+		//Declare stacks
+		StrStacks l5Stack = new StrStacks(DEFAULT_STACK_SIZE);
+		StrStacks fib = new StrStacks(DEFAULT_STACK_SIZE);
+		StrStacks fib1 = new StrStacks(DEFAULT_STACK_SIZE);
+		StrStacks fib2 = new StrStacks(DEFAULT_STACK_SIZE);
+		StrStacks fib3 = new StrStacks(DEFAULT_STACK_SIZE);
+		
+		//Populate Stacks
+		for (int index = 0; index < s.length(); index++)
+		{
+			Character c = s.charAt(index);
+			l5Stack.push(c);
+		}
+		
+		//Character check for not A and not B, prep for fib sequence.
+		while (!l5Stack.isEmpty())
+		{
+			Character c = l5Stack.pop();
+			
+			if (c != 'A' && c != 'B')
+			{
+				result = false;
+			}			
+			fib.push(c);
+		}
+		
+		//Check for fibonacci and "alternating" AB 
+		while (!fib.isEmpty())
+		{			
+			Character c = fib.pop();
+			if (newStack)
+			{
+				f1 = c;
+				newStack = false;
+			}
+			
+			if (c == f1 && fib2.isEmpty())
+			{
+				fib1.push(c);
+			}
+			else if (c != f1)
+			{
+				fib2.push(c);
+			}			
+			else
+			{
+				singleRun = false;
+				fib.push(c);
+				while (!fib1.isEmpty())
+				{
+					fib1.pop();
+					fib3.push(fib.pop());
+				}
+
+				StrStacks f2Temp = new StrStacks(DEFAULT_STACK_SIZE);
+				while (!fib2.isEmpty())
+				{
+					f2Temp.push(fib2.pop());
+					fib3.push(fib.pop());
+				}
+				
+				while (!f2Temp.isEmpty())
+				{
+					fib.push(f2Temp.pop());
+				}
+				Character f3Top = fib3.peek();
+				while(!fib3.isEmpty())
+				{
+					Character f3 = fib3.pop();
+					if (f3 != f3Top)
+					{
+						result = false;
+					}
+					fib.push(f3);
+				}
+				//reset
+				f1 = fib.peek();
+				fib.pop();
+			}
+		}
+		//Handle L2? edge case
+		if (singleRun)
+		{
+			result = false;
+		}
 		return result;
 	}
 

@@ -15,7 +15,6 @@ public class StrStacks {
 	 */
 	public StrStacks(int n) 
 	{
-		
 		maxSize=n;
 		A=new Character[maxSize];
 		top=0;
