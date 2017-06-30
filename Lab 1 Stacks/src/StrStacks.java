@@ -9,6 +9,7 @@ public class StrStacks {
 	int maxSize; //Max number of characters that can be stored in the stack
 	int top; //Top (current size) of the stack
 	Character A[]; //Character array to store the data
+	static int DEFAULT_STACK_SIZE = 100;
 	
 	/*
 	 * Creates a new stack of characters in a string 
@@ -20,12 +21,20 @@ public class StrStacks {
 		top=0;
 	}
 	
+	/*
+	 * Creates a new stack of characters in a string of size DEFAULT_STACK_SIZE 
+	 */
+	public StrStacks()
+	{
+		maxSize=DEFAULT_STACK_SIZE;
+		A=new Character[maxSize];
+		top=0;
+	}	
 	
 	/*
 	 * Looks to see if the stack is empty
 	 * if it is return true if it is not empty return false
-	 */
-			
+	 */			
 	public boolean isEmpty()
 	{
 		if(top==0)
@@ -41,8 +50,7 @@ public class StrStacks {
 	/*
 	 * Looks to see if the stack is full
 	 * if it is return turn if it is not return false
-	 */
-	
+	 */	
 	public boolean isFull(){
 		if(top==maxSize)
 		{
@@ -57,8 +65,7 @@ public class StrStacks {
 	
 	/*
 	 * Push a character of the string onto the stack
-	 */
-	
+	 */	
 	public void push(Character c)
 	{
 		if(top<maxSize)
@@ -79,8 +86,7 @@ public class StrStacks {
 	/*
 	 * Pops the top item off the stack and moves the top item one down
 	 * returns the top item of the stack
-	 */
-	
+	 */	
 	public Character pop()
 	{
 		if(!this.isEmpty())

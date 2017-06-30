@@ -4,7 +4,8 @@ public class LanguageTests {
 	static int DEFAULT_STACK_SIZE = 100; //Global default stack size
 	/*
 	 * This function tests whether or not the given string is in L1.
-	 * Let L1= { w: w contains equal numbers of A's and B's (in any order) and no other characters} 
+	 * Let L1= { w: w contains equal numbers of A's and B's (in any order) 
+	 * and no other characters} 
 	 * @param s String to test against L1 criteria
 	 * @return result Boolean result of test.
 	 */
@@ -278,7 +279,8 @@ public class LanguageTests {
 			if (c == 'B' && !aStack.isEmpty())
 			{
 				//Start "P" check
-				if (aStack2.isEmpty() && bStack2.isEmpty() && l4Stack.isEmpty())
+				if (aStack2.isEmpty() && bStack2.isEmpty() 
+						&& l4Stack.isEmpty())
 				{
 					//Do nothing, P == 1
 					
@@ -302,7 +304,10 @@ public class LanguageTests {
 					//Compare a/a2 and b/b2 stacks (P values)
 					StrStacks aTemp = new StrStacks(DEFAULT_STACK_SIZE);
 					StrStacks bTemp = new StrStacks(DEFAULT_STACK_SIZE);
-					while (!aStack.isEmpty() || !bStack.isEmpty() || !aStack2.isEmpty() || !bStack2.isEmpty())
+					while (!aStack.isEmpty() 
+							|| !bStack.isEmpty() 
+							|| !aStack2.isEmpty() 
+							|| !bStack2.isEmpty())
 					{
 						Character a, b, a2, b2;
 						a = aStack.pop();
@@ -346,7 +351,8 @@ public class LanguageTests {
 	
 	/*
 	 * This function tests whether or not the given string is in L5.
-	 * L5 = { w: w follows a Fibonacci sequence for alternating A's and B's for any string with length > 3. e.g. ABAABBBAAAAA } 
+	 * L5 = { w: w follows a Fibonacci sequence for alternating A's and B's 
+	 * for any string with length > 3. e.g. ABAABBBAAAAA } 
 	 * @param s String to test against L5 criteria
 	 * @return result Boolean result of test.
 	 */

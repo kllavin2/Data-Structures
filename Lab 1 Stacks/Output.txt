@@ -1,30 +1,914 @@
-ABAABBBAAAAA
-ABAA
-ABBABBABBABB
-AAABBB
-AB
+Running Project1
+All output redirected from console to:
+ >Output.txt
 
-ABABABA
-ABAB
-BBAA
-BBBAA
-AAB
-AABBCCD
-ABCBA
-ABBBA
-ABBA
-ABAABBAAABBB
-AABACABAA
-AABBBAABBB
-AABBBB
-AAAABBBBBBBB
-ABBB
-ABB
-AAABBBAAABBBAAABBB
-ABBABBABBABB
-ABABAAB
-ABABAABAAB
-ABABABAABAAB
-ABAA
-BABBAAABBBB
-ABAABBBAAAACCCCCCC
+Beginning tests on string: 'ABAABBBAAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: true
+
+Beginning tests on string: 'ABAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: true
+
+Beginning tests on string: 'ABBABBABBABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'AAABBB'
+ >String in L1: true
+ >String in L2: true
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'AB'
+ >String in L1: true
+ >String in L2: true
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: ''
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABABA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAB'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'BBAA'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'AABBCCD'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABCBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBA'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAABBAAABBB'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABACABAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABBBAABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'AABBBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: true
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'AAAABBBBBBBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: true
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'ABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'ABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: true
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'AAABBBAAABBBAAABBB'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'ABBABBABBABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'ABABAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABAABAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABABAABAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: true
+
+Beginning tests on string: 'BABBAAABBBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAABBBAAAACCCCCCC'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBBAAAABBBABBBAABA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BAAABAABBABAABBAABBBAAAAABBABBBBBBBABBAABBBAABAABABAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABAAAABABBABAAABABBBABAAAAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABBBBBBBBBABABBABABAAAAAAABAABBBBABABBABAAAAAAABABAAAABAAABAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBABAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AAABBABBBBBBBAAAABBAAAAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABBAABAABAAAAABAAABBABABBAAABBBBBAABBBAAABBBB'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABBBBAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABBAAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AAABAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABAABBBABBAAAABBAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBBABABBBAABABBBBAABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABAABABBBABBBBBABABBABABAABABBBAABABAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAAABBBBBAABBBABBAABBBBBAABBAAAABBBABABAAABBBAAABBABAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBAAABABAAABAAAABAABAABAABBBBAABABABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAABBAABAABBBBAAAAABABABBBBBBBBBAAABBBAABAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABABBAAABBBBBABBBBABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBAABBBABBBBBABBBBBABAABBBBAAABBBABBAAAAABAAABAABBBBBBBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AAABBAAAAABBAABBABAABABBBAABBAAAAABABBAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBAAAABABABBBABA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBABBABAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBABABBBBBAABAAAAAAAABBBBBAAABABAAABABABABBABBAAABBABABBBBABBABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBAA'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BA'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABBBAABAAABBAABBAAAABABABABAAAAABAABAAAABABBBBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BAAAAAABAABBBBBBABAABABBABBBAAAAABBBBABBBAAABABAAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABBBAAABBBAABABBBBABBBAABAAABABAABBAAAABBBBAAABBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBBBBAABBAAABAABABABABBBAAABBBABBBBAAAABABAAABBAAAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BAABBAABAAAABAABBABBAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABBAAABBABABABBABAB'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'BBABAAAABBBBAAAABAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABBBBAAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAAABAAABAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBBBBABAABBAABBBAAAABBBABAABAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BAABBAAAABBBBAABAABABAABABBBAAABABBBABBAABBBBABBBBAABABBBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABBABAABBA'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBABBBBBBAABBAABABBAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBAAABBAB'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABAABABABABABBABAAAAAAAABAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAABBBABAABABBAAABBBAAAABA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABABBBBBAAAABABAABABABABBAAAAABAAABBBABBBABABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BAABBBBAAAABAAABABABABAAABAABAAAAABAABABBAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBAABABBBAAABBABABABBABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABBBABAAAAAAAABBBABBABAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBABBBBBBABBBBBABBABBBAAABAABBABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABBAABAABBABBAABAABBBABBBABBBAAABAABAAB'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABABBAABBBABBBABAAAAAABAABABABABABBAB'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABBBBBBAAABAABBBBAAABABBAAAABBABBABBBBABBBBAABBBABAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABAABBAABBBBBBAAABBAABBAABBBBBAAAAABBAABABBBAABAAABABBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABBBABBBBAABBBBBABAAAABBAAAAAAABBBAAAABBAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBAABBABBAABAABAABABABAAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBABABAABABABBBBBBAAAABAABAABBABAABABABAABBABA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABABAAABBBABABAAAABBBABBAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABBABBAABAABBAABBBABAABBABAAABBAAABBBBAABBAAABBBABBBBABABAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBBABAABBBBBAAAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBBAABBAABAABAABBBBBBAAAABABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBABABABAAAABABBAAABAAAAABBAABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AAABAAAAABABABBABBABABBBAABBABBBABABABBAAABBAABBBBAABBABBAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABABABBAAAAAABBBABBBABAAAABAAABBBABAAAABABABAABBBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBBBAABABABABAABBAAABBAAABABABABAABAAAAAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBBABAAABBAABABABBABAAABAAABABB'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBAABBBBBBABAABABABBBBAAAAAABBBABBBBBAABBBBABA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AB'
+ >String in L1: true
+ >String in L2: true
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'BBABBBBABAABBBBBAABBAAABABABAAABABBAAABBBAAABBAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBBBAABBAABABBBABBBABBBAABABBABAABAABBBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABAABBBAAABBABABABBAABBBABAABBABBABABBBBBABBBBABAAABABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABBAAAABAAAABBAABBAABBABAABAAABBBBABAABBAABBBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABBBBBBBBBBBABABBAABBAABABBAAAAAAABAABABABAAAAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABABBAABAAABBBAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BAABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'BAAABAAAAAABBBBBABAAAABABABABBAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABBBAABAAAAABBBBBABAABAAABABBBAAAAABABBBAAAAAAABAAABBAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBBBAABBBBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AAABAAAAABBBBABABAABBBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAAAABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: true
+
+Beginning tests on string: 'BAAABBBABBBBABAAAAAAAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AAABBAAAABABBAABAABABBAABBBBABABAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABBABAABABBABAAABBBBAABBAABABABA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBAAAAAABBAAAAABBABBBAAAABAABBBABAAABBAAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABBABBABABABBAAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBAAABBAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBABABBBAAAABBAAABBAAABAAAAABBBAABBAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABBBAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'BBBAAABAAAAAAABABBBBAABBAABBABAABBBBABABBBBAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBAABABAABABBAABABBBBABBBBBBBABAAABAAAAAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBAAABABBABABAABAAABBBBBAAAAABBAABBBBAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABBBBBBAABBABAAAABBAABABBAABABBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABAAAAABBBBBBA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: true
+ >String in L5: false
+
+Beginning tests on string: 'AAAABBAAAAABABBABAABAABABA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BAAABABBAABBABBABAAABABABBBBBBBAABABBBAAAAAABBABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAABBAAAABBBBAAAAAABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABAABABABBBBAAABABBABABAABABB'
+ >String in L1: true
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'BABABBABBBAABBABBABAAAABBAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABABAABABABBBAAAAABBABAAABBABABBABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AABBBBBBBBBAABAABBABBBABBBBABABAABABBBBABABBB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'AAABBBBBABABBAABBAABBAAABBABAAABBBBBBBBBBAAAAAAAAAAAABBAABABAB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABBBABABABAAABABAAAAAAABBBABBABB'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+
+Beginning tests on string: 'ABAAABBAA'
+ >String in L1: false
+ >String in L2: false
+ >String in L3: false
+ >String in L4: false
+ >String in L5: false
+Finished running Project1!
