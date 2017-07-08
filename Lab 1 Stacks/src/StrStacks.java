@@ -1,5 +1,6 @@
 /*----------------------------------------------------------------
- *  A stack of characters
+ *  A stack of characters. Contains the functions needed for
+ *  implementing a stack based solution
  *  @version    1.0     2017-06-29
  *  @author     Kristi Lavin
  *----------------------------------------------------------------*/

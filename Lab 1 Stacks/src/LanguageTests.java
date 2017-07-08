@@ -66,7 +66,7 @@ public class LanguageTests {
 	/*
 	 * This function tests whether or not the given string is in L2.
 	 * Let L2 = { w: w is of the form AnBn, for some n > 0 }  
-	 * @param s String to test against L1 criteria
+	 * @param s String to test against L2 criteria
 	 * @return result Boolean result of test.
 	 */
 	
@@ -147,7 +147,7 @@ public class LanguageTests {
 	/*
 	 * This function tests whether or not the given string is in L3.
 	 * L3 = { w: w is of the form AnB2n, for some n > 0 }  
-	 * @param s String to test against L1 criteria
+	 * @param s String to test against L3 criteria
 	 * @return result Boolean result of test.
 	 */
 	public static boolean testL3(String s)
@@ -228,7 +228,7 @@ public class LanguageTests {
 	/*
 	 * This function tests whether or not the given string is in L4.
 	 * L4 = { w: w is of the form (AnBm)^p, for some m,n,p > 0 } 
-	 * @param s String to test against L1 criteria
+	 * @param s String to test against L4 criteria
 	 * @return result Boolean result of test.
 	 */	
 	public static boolean testL4(String s)

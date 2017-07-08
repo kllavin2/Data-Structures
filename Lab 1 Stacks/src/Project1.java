@@ -3,8 +3,9 @@
  *  @author        Kristi Lavin
  *  @version       1.0			6/12/17
  *    
- *  Evaluates if a given string is in a Language L 
- *
+ *  Entry Point of the application. It outlines the solution of the 
+ *  project and handles input and output files. Evaluates if a given 
+ *  string is in a Language L via a stack based solution. 
  *  5 languages will be compared
  *
  *----------------------------------------------------------------*/
