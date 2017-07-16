@@ -17,8 +17,7 @@ import java.io.IOException;
 import java.io.PrintStream;
 
 public class Project2 {
-	private static int numNodes; 
-	private static int m[][];
+
 
 	public static void main(String[] args) throws IOException 
 	{
@@ -26,7 +25,7 @@ public class Project2 {
 		FileReader     	    fr; //Used for input file
 		PrintStream    		ps; //Used for output file
 		FileOutputStream 	fos; //Used for output file
-		setNumNodes(0);		
+				
 		
 		//Check for command line arguments
 		if(args.length != 2)
@@ -90,20 +89,5 @@ public class Project2 {
 
 	}
 
-	public static int getNumNodes() {
-		return numNodes;
-	}
-
-	public static void setNumNodes(int numNodes) {
-		Project2.numNodes = numNodes;
-	}
-
-	public static int[][] getM() {
-		return m;
-	}
-
-	public static void setM(int m[][]) {
-		Project2.m = m;
-	}
 
 }
