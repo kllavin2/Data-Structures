@@ -1,5 +1,7 @@
 /*
  * Calculates the determine of a matrix 6x6 or smaller.
+ * @Version 1.0 
+ * @Author K. Lavin
  */
 public class Determinant
 {

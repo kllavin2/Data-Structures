@@ -75,19 +75,15 @@ public class Project2 {
 			}
 			
 			
+			
 		}
-		
 		//Close reader stream
 		br.close();
 		//Close writer stream
-		ps.close();
-		
-		
+		ps.close();		
 		//Notify of completion
 		System.err.println("Finished running Project2!");
 		System.out.println("Finished running Project2!");
-
 	}
-
 
 }
