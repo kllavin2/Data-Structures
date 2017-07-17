@@ -26,36 +26,7 @@ public class Project2 {
 		FileReader     	    fr; //Used for input file
 		PrintStream    		ps; //Used for output file
 		FileOutputStream 	fos; //Used for output file	
-		
-		//Creating a random variable
-		Random randnum = new Random();
-		//loop to create 5 random order numbers
-		for(int i = 0; i <5; i++)
-		{
-			//create random order numbers 0 to 50
-			int randOrder = randnum.nextInt(51);
-			//create random matrix elements 0 to 11
-			int randEle = randnum.nextInt(11);
-			//create a 2D array to hold elements
-			int [][] mat = new int[randEle][randEle];
-			System.out.println("Element "+ randEle);
-			System.out.println("Order " +randOrder);
-			//if the order size is greater than 0 create a matrix
-//			if(randOrder > 0){				
-//				for (int j = 0; j < randOrder; ++j)
-//				{
-//					for (int k = 0; k < randOrder; ++k)
-//					{
-//						mat[j][k] = randnum.nextInt(10);
-//						//Prints out the input matrix
-//					}
-//				}	
-//			}
 			
-		}
-		
-			
-		
 		//Check for command line arguments
 		if(args.length != 2)
 		{
