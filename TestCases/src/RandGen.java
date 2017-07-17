@@ -1,3 +1,9 @@
+/*----------------------------------------------------------------
+ *  Generates random nxn arrays containing random integers
+ *  @version    1.0     2017-07-17
+ *  @author     Kristi Lavin
+ *----------------------------------------------------------------*/
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.concurrent.ThreadLocalRandom;
