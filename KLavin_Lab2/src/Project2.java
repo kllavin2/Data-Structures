@@ -45,7 +45,7 @@ public class Project2 {
 			//Open writer
 			fos = new FileOutputStream(args[1]);
 			ps = new PrintStream(fos);
-			//System.setOut(ps);
+			System.setOut(ps);
 		}
 		catch(Exception ioExcept)
 		{

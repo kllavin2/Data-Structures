@@ -13,9 +13,9 @@ public class RandGen {
 			//loop to create 50 random matrices
 			for(int i = 0; i <50; i++)
 			{
-				//create random n size for test matrices 1 to 50
-				int randOrder = ThreadLocalRandom.current().nextInt(1,50);
-				wr.println(randOrder+"\n");
+				//create random n size for test matrices 1 to 10
+				int randOrder = ThreadLocalRandom.current().nextInt(1,10);
+				wr.println(randOrder);
 				//nested for loop to create matrices based on size of n
 				for (int j = 0; j < randOrder; ++j)
 				{
@@ -27,7 +27,7 @@ public class RandGen {
 						//Prints out the input matrix to output text
 						wr.print(Rele+ " ");
 					}
-					wr.println("\n");
+					wr.println();
 				}	
 				
 			}

@@ -1,4 +1,9 @@
-
+/*----------------------------------------------------------------
+ *  These methods create the minors, compute, and display the 
+ *  determinant of a matrix held in a 2D array
+ *  @version    1.0     2017-07-17
+ *  @author     Kristi Lavin
+ *----------------------------------------------------------------*/
 public class MatrixArray {
 	int[][] MA;//2D array to hold matrix
 	int N;//element in the matrix

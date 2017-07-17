@@ -30,10 +30,11 @@ public class RunTime {
 	public String toString(){
 		StringBuilder met;
 		met = new StringBuilder();
-		met.append("Size:\n");
+		met.append("\n Runtime Metrics: \n");
+		met.append("Size:		Time: \n");
 		for (int i = 0; i <currentIdx; i++) {
 			//Add "size = time\n" to "met" 
-			met.append(size[i] + " = " + time[i] + "\n");
+			met.append(size[i] + " 			" + time[i] + "\n");
 		}
 		return met.toString();
 	}
