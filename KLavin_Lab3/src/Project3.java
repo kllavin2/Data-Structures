@@ -1,12 +1,12 @@
 /*
- * Project 2
+ * Project 3
  * @author		Kristi Lavin
- * @version		1.0				7/17/2017
+ * @version		1.0				8/5/2017
  * 
  * Entry Point of the application. It outlines the solution of the
  * project and handles input and output files. Evaluates multiple
  * matrices up to order 6 and computes the determinant of the 
- * matrices in a recursive manner. 
+ * matrices in a recursive manner using an linked list.
  */
 
 
@@ -16,7 +16,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintStream;
 
-public class Project2 {
+public class Project3 {
 
 
 	public static void main(String[] args) throws IOException 
@@ -31,7 +31,7 @@ public class Project2 {
 		if(args.length != 2)
 		{
 			System.out.println(
-					"Usage: Java Project 2 [input file pathname]"
+					"Usage: Java Project 3 [input file pathname]"
 					+ "[Output file pathname]");
 			System.exit(1);
 		}
@@ -54,10 +54,10 @@ public class Project2 {
 		}
 		
 		//Notify user via console
-		System.err.println("Running Project2");
+		System.err.println("Running Project3");
 		System.err.println(">All output redirected from console to :\n"
 				+ args[1]);
-		System.out.println("Running Project2");
+		System.out.println("Running Project3");
 		System.out.println("All output redirected from console to:\n"
 				+ args[1]);
 		
@@ -82,8 +82,8 @@ public class Project2 {
 		//Close writer stream
 		ps.close();		
 		//Notify of completion
-		System.err.println("Finished running Project2!");
-		System.out.println("Finished running Project2!");
+		System.err.println("Finished running Project3!");
+		System.out.println("Finished running Project3!");
 	}
 
 }
