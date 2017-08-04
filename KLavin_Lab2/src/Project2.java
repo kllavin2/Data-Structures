@@ -16,17 +16,17 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintStream;
 
+
 public class Project2 {
-
-
+	
 	public static void main(String[] args) throws IOException 
 	{
+		RunTime R = new RunTime();//Run time 
 		BufferedReader 	    br; //Used for input file
 		FileReader     	    fr; //Used for input file
 		PrintStream    		ps; //Used for output file
-		FileOutputStream 	fos; //Used for output file
-				
-		
+		FileOutputStream 	fos; //Used for output file	
+			
 		//Check for command line arguments
 		if(args.length != 2)
 		{
@@ -45,7 +45,7 @@ public class Project2 {
 			//Open writer
 			fos = new FileOutputStream(args[1]);
 			ps = new PrintStream(fos);
-			//System.setOut(ps);
+			System.setOut(ps);
 		}
 		catch(Exception ioExcept)
 		{
@@ -66,24 +66,53 @@ public class Project2 {
 		//Main file in loop
 		while ((currentLine = br.readLine()) != null){
 			int N = Integer.parseInt(currentLine);
-			//System.out.println(N);
 			//Matrix loop
-			int A [][] = new int [N][N];
-			for (int i = 0; i < N; i++){
-				String matrixLine = br.readLine();
-				System.out.println(matrixLine);
+			int[][] A  = new int [N][N];
+			for (int i = 0; i < N; ++i){
+				String[] matrixLine = br.readLine().trim().split(" ");
+				for (int j = 0; j < N; ++j){
+					A[i][j] = Integer.parseInt(matrixLine[j]);
+				}
 			}
-			
-			
-			
+			//
+			MatrixArray currMat = new MatrixArray(A);
+			//Prints out the input matrix
+			System.out.println(currMat);
+			//Start time 
+			long start =System.nanoTime();
+			//Prints out the determinant
+			System.out.println("Determinant: " 
+								+ currMat.determinant() 
+								+ "\n");
+			//end time 
+			long end = System.nanoTime();
+			//Record N and time
+			R.append(end-start,N);	
 		}
+		//Prints Runtime metrics
+		System.out.println(R);
 		//Close reader stream
 		br.close();
 		//Close writer stream
-		ps.close();		
+		ps.close();
+		
+		
 		//Notify of completion
 		System.err.println("Finished running Project2!");
 		System.out.println("Finished running Project2!");
 	}
+	
+	/*
+	 * Temporary print string array function for testing purposes
+	 */
+	private static void printArr(String[] sArr) {
+		for (int i = 0; i < sArr.length; i++) {
+			if (i > 0) {
+				System.out.print(", ");
+	        }
+	        System.out.print(sArr[i]);
+		}
+	}
+
 
 }

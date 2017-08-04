@@ -1,73 +1,85 @@
-Running Project2
+Running Project3
 All output redirected from console to:
 Output.txt
-MatrixArray:
-5
 
+NEW LINKED LIST MATRIX:
+N: 1
+LLDeterminant Object:
+5
 Determinant: 5
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 2
+LLDeterminant Object:
 2, 3
 5, 9
-
 Determinant: 3
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 3
+LLDeterminant Object:
 3, -2, 4
 -1, 5, 2
 -3, 6, 4
-
 Determinant: 64
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 2, 4, 5, 6
 0, 3, 6, 9
 0, 0, 9, 8
 0, 0, 0, 5
-
 Determinant: 270
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 2, 4, 5, 6
 0, 0, 0, 0
 0, 0, 9, 8
 0, 0, 0, 5
-
 Determinant: 0
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 2, 0, 0, 0
 0, 3, 0, 0
 0, 0, 9, 0
 0, 0, 0, 5
-
 Determinant: 270
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 2, 4, 0, 6
 1, 3, 0, 0
 4, 0, 0, 8
 2, 5, 0, 5
-
 Determinant: 0
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 6
+LLDeterminant Object:
 6, 4, 6, 4, 6, 4
 1, 2, 3, 4, 5, 6
 6, 5, 4, 3, 2, 1
 3, 2, 3, 2, 3, 2
 4, 6, 4, 6, 4, 6
 1, 1, 1, 1, 1, 1
-
 Determinant: 0
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 2
+LLDeterminant Object:
 5, 4
 -5, 4
-
 Determinant: 40
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 9
+LLDeterminant Object:
 2, -6, 3, -1, 2, 5, 4, -4, -8
 0, -2, 6, -3, -8, 3, -5, 2, 4
 8, 1, -9, -7, 2, 1, -9, -3, -2
@@ -77,26 +89,29 @@ MatrixArray:
 1, 8, 8, 8, 6, 2, 8, 8, -7
 -5, 3, -8, 7, -1, 0, -6, 6, 5
 0, -1, 0, 8, 4, -2, 5, 6, 0
-
 Determinant: -982046536
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 2
+LLDeterminant Object:
 -5, 5
 -6, -4
-
 Determinant: 50
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 6
+LLDeterminant Object:
 -9, 8, -9, 2, -6, -8
 3, -2, -8, 4, -2, -4
 -8, 0, 1, 3, -1, -7
 -3, -8, 1, -8, 5, -6
 2, -1, 7, 7, -5, -8
 -8, -4, -7, 6, 0, -2
-
 Determinant: 407728
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 9
+LLDeterminant Object:
 1, 2, 0, 4, -8, -9, 6, -2, -3
 -4, 5, -9, 3, 5, 3, -5, -5, -7
 -2, -1, 7, 7, -3, -3, 0, -1, -5
@@ -106,46 +121,51 @@ MatrixArray:
 -2, 3, 0, 5, -7, 5, -6, -5, 1
 2, 8, 3, -9, 0, 1, 0, 8, -2
 -1, 6, 4, 5, -4, -2, -5, -5, -1
-
 Determinant: -438822392
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 6
+LLDeterminant Object:
 -3, 0, 6, 2, 2, 6
 4, -4, -1, -5, 2, 3
 -1, 8, -8, 6, 0, -4
 7, 1, -4, -7, 0, 0
 8, -5, -3, 5, -3, 0
 -3, -1, 2, 6, 5, -7
-
 Determinant: -227632
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 6
+LLDeterminant Object:
 -6, -7, 1, -5, -4, 8
 1, 2, -9, 0, 6, -6
 -6, 0, 0, -2, -8, 3
 5, -1, 2, 6, 6, -5
 0, -1, 0, 2, -6, 4
 -9, 1, -7, -5, 7, 6
-
 Determinant: 182575
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 5
+LLDeterminant Object:
 0, -2, 5, 2, -5
 -4, 1, 8, 2, 1
 -7, -6, -5, -7, -8
 0, -1, -5, -7, -8
 -3, 2, -7, 4, -8
-
 Determinant: 38672
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 3
+LLDeterminant Object:
 -5, 5, -5
 -6, -9, -4
 2, 4, -7
-
 Determinant: -615
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 7
+LLDeterminant Object:
 -1, 8, 4, 0, 8, -1, 7
 -2, -8, 1, -8, 8, -2, -8
 4, -7, -4, -7, -9, -3, -6
@@ -153,16 +173,18 @@ MatrixArray:
 4, 8, 4, -7, -3, -9, -7
 0, 5, -6, -3, 7, -8, 2
 8, -6, 1, 8, -6, -7, 5
-
 Determinant: 1257061
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 2
+LLDeterminant Object:
 2, -1
 -8, 8
-
 Determinant: 8
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 8
+LLDeterminant Object:
 8, 6, -3, -8, 0, -2, 8, -4
 -1, -6, 7, -1, -6, -2, -2, -5
 -3, 4, 7, 8, 7, -9, -6, 1
@@ -171,18 +193,20 @@ MatrixArray:
 4, -4, 8, 8, 5, -4, -2, -3
 -3, 5, 6, -9, -2, -3, 2, 1
 1, 7, 0, 7, 3, -4, -9, -9
-
 Determinant: -71536674
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 -6, -4, 6, -1
 -3, 0, -4, 5
 5, 7, -1, 1
 2, 7, 7, 2
-
 Determinant: -620
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 9
+LLDeterminant Object:
 4, -5, 6, -5, 1, 7, 5, 0, 4
 1, -2, 2, -7, -6, -9, 7, 2, 2
 -2, 8, -4, 0, 5, 5, -4, -7, 6
@@ -192,75 +216,85 @@ MatrixArray:
 -7, 4, 8, -6, -7, -9, 5, -9, 0
 -8, 2, -7, -7, -4, 2, -4, -2, 8
 0, 6, -9, -2, -3, 4, -4, 8, 6
-
 Determinant: 402980919
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 3
+LLDeterminant Object:
 -5, -8, 8
 4, -4, -8
 -8, 4, 7
-
 Determinant: -436
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 5, 3, 3, -8
 -6, 7, -2, 0
 3, -4, 5, 0
 2, 2, 1, 1
-
 Determinant: 1056
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 2
+LLDeterminant Object:
 2, -4
 2, -4
-
 Determinant: 0
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 2
+LLDeterminant Object:
 -2, 5
 -6, 6
-
 Determinant: 18
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 5
+LLDeterminant Object:
 -6, 2, -2, -7, 2
 7, 8, -5, 7, 7
 2, -7, 7, 2, 2
 -9, 2, -2, -2, -9
 -5, -4, -2, 3, -5
-
 Determinant: -25944
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 7, -9, -3, -6
 5, -1, -1, -2
 -4, -5, 3, -1
 2, 1, -7, -4
-
 Determinant: -534
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 5
+LLDeterminant Object:
 1, 4, 1, -9, 5
 -5, -3, 1, 3, -7
 6, 7, 3, 4, 8
 2, 1, 7, 6, 7
 4, -1, 7, -7, -7
-
 Determinant: 39643
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 3
+LLDeterminant Object:
 -4, -6, 7
 -9, 8, 5
 6, 5, 1
-
 Determinant: -817
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 1
+LLDeterminant Object:
 -4
-
 Determinant: -4
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 8
+LLDeterminant Object:
 4, 6, -1, 8, 4, -8, 7, 8
 2, -5, -8, -1, 8, 5, -1, -6
 -8, -1, 6, 0, -1, -5, 0, -3
@@ -269,10 +303,11 @@ MatrixArray:
 0, 6, -2, -6, -7, 7, 8, -5
 2, -1, 2, -9, -1, 5, -5, 1
 -6, -1, 1, 2, -8, 1, -3, -1
-
 Determinant: -16950141
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 9
+LLDeterminant Object:
 6, 7, -3, -1, 6, -4, 6, 0, 5
 -7, -7, -6, 2, 4, 5, 1, -3, 6
 4, 8, 2, -7, -5, 6, 4, 5, 1
@@ -282,26 +317,29 @@ MatrixArray:
 7, 6, -6, 0, -8, -1, 4, -4, -2
 4, -1, 8, 2, 2, 6, -7, -7, 7
 -8, 5, -1, -4, -2, 7, -4, 5, -6
-
 Determinant: -1115940679
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 5
+LLDeterminant Object:
 7, 8, 4, -9, -4
 -5, 0, 8, 0, -2
 7, 3, 4, -3, 5
 -2, 3, 0, -4, 7
 -9, -1, 7, 1, 1
-
 Determinant: -1194
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 3
+LLDeterminant Object:
 -8, 6, -8
 0, -8, 5
 -4, 4, 6
-
 Determinant: 680
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 8
+LLDeterminant Object:
 5, 4, -2, 8, -7, 3, -4, -5
 1, -5, 1, -3, -9, -7, 7, -6
 3, -8, 7, 5, 6, 3, -4, 6
@@ -310,71 +348,80 @@ MatrixArray:
 -1, 6, -5, -7, 7, -4, 6, 4
 7, 3, 1, -8, -4, -5, -9, 4
 -7, -6, 2, 6, 1, 7, -1, 6
-
 Determinant: 95412705
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 5
+LLDeterminant Object:
 -9, 7, -2, -1, 1
 -4, 8, 4, -1, 5
 -5, -3, -6, 7, 6
 5, 0, 2, -6, -4
 -9, -7, 1, 4, 4
-
 Determinant: -20939
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 7, 2, -2, 0
 5, 4, 4, -1
 4, 0, 7, -7
 6, -3, 0, 5
-
 Determinant: 2165
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 2
+LLDeterminant Object:
 5, -3
 8, 0
-
 Determinant: 24
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 6
+LLDeterminant Object:
 7, -5, 1, -8, 8, -2
 3, -8, -1, -9, 2, 5
 8, -8, -9, -2, -2, 8
 7, -5, 7, -9, -6, -9
 3, -3, 2, 5, 8, 6
 -6, -5, 7, -7, -6, -9
-
 Determinant: -1187194
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 3
+LLDeterminant Object:
 -6, -4, -3
 4, -9, -9
 -3, -1, 2
-
 Determinant: 179
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 5, 3, -3, -7
 -9, -6, 1, -7
 -3, -7, -7, 6
 2, -6, -8, 3
-
 Determinant: 2482
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 1
+LLDeterminant Object:
 3
-
 Determinant: 3
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 6, -8, -2, -2
 7, -3, 2, -7
 -5, -3, 4, -8
 1, -7, -6, 2
-
 Determinant: -1768
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 7
+LLDeterminant Object:
 -7, -5, 3, 5, -7, 0, 1
 8, 4, 5, -3, -9, -2, 7
 0, 2, 3, -2, 4, -6, 2
@@ -382,35 +429,39 @@ MatrixArray:
 7, 7, 3, 7, -4, -8, 1
 0, -8, -1, -9, 6, 4, -3
 -6, -4, 7, 8, -2, -1, -6
-
 Determinant: 1530180
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 6
+LLDeterminant Object:
 -8, -1, -1, 8, 1, 5
 2, -3, 3, -8, -8, 7
 -2, 3, 7, 8, -3, -1
 -2, 4, 4, -9, 8, -2
 7, -5, -8, 5, 2, -6
 -3, -1, -2, -1, -4, 6
-
 Determinant: -8116
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 6
+LLDeterminant Object:
 -2, -1, 5, 1, 2, 8
 -2, 7, 5, -3, -4, 3
 4, -5, -4, 7, -1, 1
 7, 6, -4, 4, -6, 0
 -2, -7, 7, 4, -4, 4
 -8, -9, 6, -9, -7, 2
-
 Determinant: -108610
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 1
+LLDeterminant Object:
 -7
-
 Determinant: -7
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 7
+LLDeterminant Object:
 3, -1, 4, -9, -1, 8, -3
 -3, 3, -2, -6, -7, 4, -4
 -6, 2, 6, -7, -2, -8, -7
@@ -418,19 +469,21 @@ MatrixArray:
 -2, 0, -8, -4, -3, -7, -6
 -1, 8, 0, -8, -4, 6, 1
 -3, -5, 3, -4, 7, -9, -4
-
 Determinant: 4074322
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 5
+LLDeterminant Object:
 -4, 8, 6, -6, 5
 3, -1, 5, -4, -7
 5, -8, -6, -4, 5
 -5, 1, 8, 5, 8
 -1, 4, 3, -7, -4
-
 Determinant: 23796
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 8
+LLDeterminant Object:
 3, -3, 8, 6, -8, 1, -7, 5
 -5, -7, -7, 1, 5, 1, -4, -3
 8, -4, 5, -2, 2, 6, -4, -1
@@ -439,44 +492,50 @@ MatrixArray:
 -3, -1, 0, 0, 6, 4, -8, -9
 1, 2, 2, -9, -6, -4, -6, 2
 1, 4, 6, 8, 8, -7, 2, -2
-
 Determinant: 174975831
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 5, 4, 8, -5
 -1, -6, -9, -4
 1, -6, -1, 6
 2, -4, 7, -7
-
 Determinant: 4072
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 3
+LLDeterminant Object:
 7, 7, -4
 -7, 6, -9
 0, 3, -6
-
 Determinant: -273
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 4
+LLDeterminant Object:
 4, 0, 4, 5
 -2, -7, 4, 3
 2, -8, -5, -5
 5, 0, 2, 8
-
 Determinant: 1837
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 1
+LLDeterminant Object:
 -4
-
 Determinant: -4
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 2
+LLDeterminant Object:
 3, -8
 6, 5
-
 Determinant: 63
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 7
+LLDeterminant Object:
 6, -3, -2, -9, 6, 3, -6
 -4, 0, 7, -3, -3, -8, -5
 -3, 3, -9, 8, -1, 0, -4
@@ -484,77 +543,76 @@ MatrixArray:
 2, 0, 6, 0, 3, 2, -6
 3, -1, 8, -1, 6, 4, 0
 6, 8, -5, -2, 6, 5, 3
-
 Determinant: -2893872
 
-MatrixArray:
+NEW LINKED LIST MATRIX:
+N: 5
+LLDeterminant Object:
 -7, 7, 5, -4, -4
 7, 6, 6, 6, -8
 6, 6, 0, -7, 2
 -8, 7, -4, 8, 3
 -2, -1, -3, -4, 1
-
 Determinant: -55763
-
 
  Runtime Metrics 
 Size:		Time: 
-1 			52795
-2 			89217
-3 			44107
-4 			93895
-4 			72509
-4 			75851
-4 			68500
-6 			922911
-2 			29405
-9 			162051722
-2 			41434
-6 			327129
-9 			148812529
-6 			326795
-6 			324456
-5 			77856
-3 			30407
-7 			2081061
-2 			32078
-8 			16242830
-4 			38427
-9 			148914110
-3 			39095
-4 			40766
-2 			32412
-2 			38760
-5 			77856
-4 			41434
-5 			81866
-3 			59812
-1 			26732
-8 			16253189
-9 			148925804
-5 			76185
-3 			27400
-8 			16262545
-5 			75517
-4 			39095
-2 			26732
-6 			350519
-3 			28402
-4 			35086
-1 			23391
-4 			34751
-7 			2105119
-6 			350185
-6 			318107
-1 			23724
-7 			2098770
-5 			75183
-8 			16257199
-4 			35086
-3 			26732
-4 			37758
-1 			30741
-2 			26063
-7 			2136194
-5 			81866
+1 			6349
+2 			2673
+3 			124637
+4 			146355
+4 			186120
+4 			145687
+4 			78524
+6 			1757273
+2 			17709
+9 			190466150
+2 			335
+6 			318441
+9 			166267975
+6 			320780
+6 			327798
+5 			52127
+3 			2005
+7 			2297253
+2 			334
+8 			18134764
+4 			10024
+9 			167550426
+3 			2339
+4 			10024
+2 			669
+2 			334
+5 			53463
+4 			9690
+5 			53129
+3 			2005
+1 			41100
+8 			19976576
+9 			166980039
+5 			54800
+3 			2005
+8 			18362986
+5 			52126
+4 			9690
+2 			668
+6 			322451
+3 			2004
+4 			10692
+1 			10692
+4 			9690
+7 			2262836
+6 			320112
+6 			321783
+1 			334
+7 			2501750
+5 			52127
+8 			19001539
+4 			10359
+3 			2339
+4 			9691
+1 			668
+2 			334
+7 			2285892
+5 			52127
 

@@ -21,6 +21,7 @@ public class Project3 {
 
 	public static void main(String[] args) throws IOException 
 	{
+		RunTime timing = new RunTime();
 		BufferedReader 	    br; //Used for input file
 		FileReader     	    fr; //Used for input file
 		PrintStream    		ps; //Used for output file
@@ -45,7 +46,7 @@ public class Project3 {
 			//Open writer
 			fos = new FileOutputStream(args[1]);
 			ps = new PrintStream(fos);
-			//System.setOut(ps);
+			System.setOut(ps);
 		}
 		catch(Exception ioExcept)
 		{
@@ -65,18 +66,58 @@ public class Project3 {
 		String currentLine;
 		//Main file in loop
 		while ((currentLine = br.readLine()) != null){
-			int N = Integer.parseInt(currentLine);
-			//System.out.println(N);
-			//Matrix loop
-			int A [][] = new int [N][N];
-			for (int i = 0; i < N; i++){
-				String matrixLine = br.readLine();
-				System.out.println(matrixLine);
+			int N = 0;
+			try{
+				N = Integer.parseInt(currentLine);
+			}catch(Exception e){
+				System.out.printf("ERROR: Unexpected input, attempting to continue reading file...\n");
+				continue;
 			}
 			
+			System.out.printf("\nNEW LINKED LIST MATRIX:\nN: %d\n", N);
+			//Matrix loop
 			
+			LLDeterminant ll = new LLDeterminant(N);
+//			System.out.println(ll);
+//			for(int i = 0; i < N; i++){
+//				for(int j = 0; j < N; j++){
+//					ll.setValue(i, j, (i*N)+j);
+//				}
+//			}
+//			ll.setValue(0, 1, -69);
+//			ll.setValue(N, N, 69);
+//			System.out.println(ll.getValue(0, 0));
+//			System.out.println(ll.getValue(N, N));
+//			System.out.println(ll);
 			
+			//Out of bounds test
+			//System.out.println(ll.getValue(N, N+1));
+			//int[][] A  = new int [N][N];
+			boolean colError = false;
+			for (int i = 0; i < N; ++i){
+				String[] matrixLine = br.readLine().trim().split(" ");
+				if(matrixLine.length != N){
+					System.out.printf("ERROR: Incorrect input length. %d != %d\n", matrixLine.length, N);
+					colError = true;
+					break;
+				}
+				for (int j = 0; j < N; ++j){
+					//A[i][j] = Integer.parseInt(matrixLine[j]);
+					ll.setValue(i, j, Integer.parseInt(matrixLine[j]));
+				}
+			}
+			
+			if(colError){
+				continue;
+			}
+			System.out.print(ll);
+			long start = System.nanoTime(); 
+			int det = ll.determinant();
+			long end = System.nanoTime();
+			timing.append(end - start, N);
+			System.out.printf("Determinant: %d\n", det);
 		}
+		System.out.println(timing);
 		//Close reader stream
 		br.close();
 		//Close writer stream
