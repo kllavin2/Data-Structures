@@ -1,22 +1,20 @@
 /*
- * Project 3
+ * Project 4
  * @author		Kristi Lavin
- * @version		1.0				8/5/2017
+ * @version		1.0				8/17/2017
  * 
  * Entry Point of the application. It outlines the solution of the
- * project and handles input and output files. Evaluates multiple
- * matrices up to order 6 and computes the determinant of the 
- * matrices in a recursive manner using an linked list.
+ * project and handles input and output files. Compares HeapSort 
+ * and shell sorts iteratively 
  */
-
-
 import java.io.BufferedReader;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintStream;
+import java.util.Scanner;
 
-public class Project3 {
+public class Project4 {
 
 
 	public static void main(String[] args) throws IOException 
@@ -27,12 +25,11 @@ public class Project3 {
 		PrintStream    		ps; //Used for output file
 		FileOutputStream 	fos; //Used for output file
 				
-		
 		//Check for command line arguments
-		if(args.length != 2)
+		if(args.length != 1)
 		{
 			System.out.println(
-					"Usage: Java Project 3 [input file pathname]"
+					"Usage: Java Project 4 [input file pathname]"
 					+ "[Output file pathname]");
 			System.exit(1);
 		}
@@ -46,7 +43,7 @@ public class Project3 {
 			//Open writer
 			fos = new FileOutputStream(args[1]);
 			ps = new PrintStream(fos);
-			System.setOut(ps);
+			//System.setOut(ps);
 		}
 		catch(Exception ioExcept)
 		{
@@ -55,56 +52,29 @@ public class Project3 {
 		}
 		
 		//Notify user via console
-		System.err.println("Running Project3");
+		System.err.println("Running Project4");
 		System.err.println(">All output redirected from console to :\n"
 				+ args[1]);
-		System.out.println("Running Project3");
+		System.out.println("Running Project4");
 		System.out.println("All output redirected from console to:\n"
 				+ args[1]);
 		
 		//Process the input file
-		String currentLine;
-		//Main file in loop
-		while ((currentLine = br.readLine()) != null){
-			int N = 0;
-			//Input error checking
-			try{
-				N = Integer.parseInt(currentLine);
-			}catch(Exception e){
-				System.out.printf("ERROR: Unexpected input, attempting to continue reading file...\n");
-				continue;
-			}
-			
-			System.out.printf("\nNEW LINKED LIST MATRIX:\nN: %d\n", N);
-			//Matrix loop
-			LLDeterminant ll = new LLDeterminant(N);	
-			
-			//Out of bounds test for input length
-			boolean colError = false;
-			for (int i = 0; i < N; ++i){
-				String[] matrixLine = br.readLine().trim().split(" ");
-				if(matrixLine.length != N){
-					System.out.printf("ERROR: Incorrect input length. %d != %d\n", 
-							matrixLine.length, N);
-					colError = true;
-					break;
-				}
-				for (int j = 0; j < N; ++j){
-					ll.setValue(i, j, Integer.parseInt(matrixLine[j]));
-				}
-			}
-			
-			if(colError){
-				continue;
-			}
-			System.out.print(ll);
+		HeapSort HS = new HeapSort();
+		int n;
+		int arr[ ] = new int[n];
+		String line = br.readLine();//to read multiple integer line
+		String[] strs = line.trim().split("\\s+");
+		for(int i = 0; i < n; i++ )
+		{
+			HS.sort(Integer.parseInt(strs[i]));		
+			System.out.print(HS);
 			//Runtime metrics
 			long start = System.nanoTime(); 
-			int det = ll.determinant();
 			long end = System.nanoTime();
-			timing.append(end - start, N);
+			timing.append(end - start, n);
 			//Display Determinant
-			System.out.printf("Determinant: %d\n", det);
+			System.out.printf("Determinant: %d\n");
 		}
 		System.out.println(timing);
 		//Close reader stream

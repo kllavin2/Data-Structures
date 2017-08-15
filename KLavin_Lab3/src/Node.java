@@ -5,6 +5,7 @@ public class Node {
 	int value; //value to be stored	
 	Node next; // pointer that points to the next non-zero number to the right
 	
+	//Constructor creates a new Node object for each variable. 
 	public Node(int row, int col, int value, Node next)
 	{
 		this.row = row;

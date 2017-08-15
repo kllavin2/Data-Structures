@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="KLavin_Lab2/src"/>
+	<classpathentry kind="src" path="KLavin_Lab3/src"/>
+	<classpathentry kind="src" path="Lab 1 Stacks/src"/>
+	<classpathentry kind="src" path="TestCases/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="KLavin_Lab2/bin"/>
+</classpath>
