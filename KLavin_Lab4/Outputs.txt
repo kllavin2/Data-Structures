@@ -1,0 +1,1355 @@
+Running Project4
+All output redirected from console to:
+Outputs.txt
+Parsing: Input1000.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: false
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 1000
+>Time: 1130743
+>File: Input1000.txt
+
+FINISHED: Input1000.txt
+
+Parsing: Input1000Reversed.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: false
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 1000
+>Time: 844716
+>File: Input1000Reversed.txt
+
+FINISHED: Input1000Reversed.txt
+
+Parsing: Input1000Sorted.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 1000
+>Time: 553343
+>File: Input1000Sorted.txt
+
+FINISHED: Input1000Sorted.txt
+
+Parsing: Input2000.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: false
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 2000
+>Time: 2721601
+>File: Input2000.txt
+
+FINISHED: Input2000.txt
+
+Parsing: Input2000Reversed.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: false
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 2000
+>Time: 1886910
+>File: Input2000Reversed.txt
+
+FINISHED: Input2000Reversed.txt
+
+Parsing: Input2000Sorted.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 2000
+>Time: 435390
+>File: Input2000Sorted.txt
+
+FINISHED: Input2000Sorted.txt
+
+Parsing: Input50.txt
+ORIGINAL ARRAY FROM FILE:
+	54104
+	63924
+	29891
+	32286
+	39286
+	-46541
+	-73228
+	-52555
+	70770
+	50092
+	61856
+	-61049
+	-73543
+	-86896
+	12667
+	-79057
+	-89329
+	-57905
+	-31122
+	18255
+	-95532
+	-21193
+	-85398
+	68892
+	-33255
+	-92150
+	-23655
+	-9937
+	35474
+	-67339
+	26099
+	-53846
+	-82388
+	21600
+	-96030
+	-74750
+	-37253
+	-35547
+	-15857
+	8584
+	-12266
+	32536
+	-89841
+	91861
+	5287
+	10263
+	25784
+	42948
+	-56247
+	-24249
+	Sorted: false
+HEAP SORT SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+
+>Size: 50
+>Time: 7685
+>File: Input50.txt
+
+FINISHED: Input50.txt
+
+Parsing: Input500.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: false
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 500
+>Time: 138335
+>File: Input500.txt
+
+FINISHED: Input500.txt
+
+Parsing: Input5000.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: false
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 5000
+>Time: 1163823
+>File: Input5000.txt
+
+FINISHED: Input5000.txt
+
+Parsing: Input5000Reversed.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: false
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 5000
+>Time: 324120
+>File: Input5000Reversed.txt
+
+FINISHED: Input5000Reversed.txt
+
+Parsing: Input5000Sorted.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 5000
+>Time: 172752
+>File: Input5000Sorted.txt
+
+FINISHED: Input5000Sorted.txt
+
+Parsing: Input500Reversed.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: false
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 500
+>Time: 26732
+>File: Input500Reversed.txt
+
+FINISHED: Input500Reversed.txt
+
+Parsing: Input500Sorted.txt
+ORIGINAL ARRAY FROM FILE:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+HEAP SORT SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	Array size > 50, skipping printing of array.
+	Sorted: true
+
+>Size: 500
+>Time: 11695
+>File: Input500Sorted.txt
+
+FINISHED: Input500Sorted.txt
+
+Parsing: Input50Reversed.txt
+ORIGINAL ARRAY FROM FILE:
+	91861
+	70770
+	68892
+	63924
+	61856
+	54104
+	50092
+	42948
+	39286
+	35474
+	32536
+	32286
+	29891
+	26099
+	25784
+	21600
+	18255
+	12667
+	10263
+	8584
+	5287
+	-9937
+	-12266
+	-15857
+	-21193
+	-23655
+	-24249
+	-31122
+	-33255
+	-35547
+	-37253
+	-46541
+	-52555
+	-53846
+	-56247
+	-57905
+	-61049
+	-67339
+	-73228
+	-73543
+	-74750
+	-79057
+	-82388
+	-85398
+	-86896
+	-89329
+	-89841
+	-92150
+	-95532
+	-96030
+	Sorted: false
+HEAP SORT SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+
+>Size: 50
+>Time: 2339
+>File: Input50Reversed.txt
+
+FINISHED: Input50Reversed.txt
+
+Parsing: Input50Sorted.txt
+ORIGINAL ARRAY FROM FILE:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+HEAP SORT SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 0 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 1 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 2 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+SHELL SORT 3 SORTED ARRAY:
+	-96030
+	-95532
+	-92150
+	-89841
+	-89329
+	-86896
+	-85398
+	-82388
+	-79057
+	-74750
+	-73543
+	-73228
+	-67339
+	-61049
+	-57905
+	-56247
+	-53846
+	-52555
+	-46541
+	-37253
+	-35547
+	-33255
+	-31122
+	-24249
+	-23655
+	-21193
+	-15857
+	-12266
+	-9937
+	5287
+	8584
+	10263
+	12667
+	18255
+	21600
+	25784
+	26099
+	29891
+	32286
+	32536
+	35474
+	39286
+	42948
+	50092
+	54104
+	61856
+	63924
+	68892
+	70770
+	91861
+	Sorted: true
+
+>Size: 50
+>Time: 1002
+>File: Input50Sorted.txt
+
+FINISHED: Input50Sorted.txt
+
+
+Runtime Metrics 
+Size:	Time:	Method+File:
+1000	    870778	HS:Input1000.txt
+1000	   1076945	SS0:Input1000.txt
+1000	   1067255	SS1:Input1000.txt
+1000	   2490373	SS2:Input1000.txt
+1000	   1130743	SS3:Input1000.txt
+1000	    385268	HS:Input1000Reversed.txt
+1000	    153706	SS0:Input1000Reversed.txt
+1000	    226884	SS1:Input1000Reversed.txt
+1000	    253281	SS2:Input1000Reversed.txt
+1000	    844716	SS3:Input1000Reversed.txt
+1000	    256956	HS:Input1000Sorted.txt
+1000	    115279	SS0:Input1000Sorted.txt
+1000	    101580	SS1:Input1000Sorted.txt
+1000	    101580	SS2:Input1000Sorted.txt
+1000	    553343	SS3:Input1000Sorted.txt
+2000	    605468	HS:Input2000.txt
+2000	    626185	SS0:Input2000.txt
+2000	    553677	SS1:Input2000.txt
+2000	    772540	SS2:Input2000.txt
+2000	   2721601	SS3:Input2000.txt
+2000	    518591	HS:Input2000Reversed.txt
+2000	    290371	SS0:Input2000Reversed.txt
+2000	    270656	SS1:Input2000Reversed.txt
+2000	    275001	SS2:Input2000Reversed.txt
+2000	   1886910	SS3:Input2000Reversed.txt
+2000	    526277	HS:Input2000Sorted.txt
+2000	     41434	SS0:Input2000Sorted.txt
+2000	     39429	SS1:Input2000Sorted.txt
+2000	     39429	SS2:Input2000Sorted.txt
+2000	    435390	SS3:Input2000Sorted.txt
+  50	     13031	HS:Input50.txt
+  50	      5346	SS0:Input50.txt
+  50	      4009	SS1:Input50.txt
+  50	      9356	SS2:Input50.txt
+  50	      7685	SS3:Input50.txt
+ 500	    136999	HS:Input500.txt
+ 500	     59477	SS0:Input500.txt
+ 500	     58810	SS1:Input500.txt
+ 500	     69836	SS2:Input500.txt
+ 500	    138335	SS3:Input500.txt
+5000	   1590524	HS:Input5000.txt
+5000	    840037	SS0:Input5000.txt
+5000	    831015	SS1:Input5000.txt
+5000	   1798362	SS2:Input5000.txt
+5000	   1163823	SS3:Input5000.txt
+5000	   1350944	HS:Input5000Reversed.txt
+5000	    213852	SS0:Input5000Reversed.txt
+5000	    219199	SS1:Input5000Reversed.txt
+5000	    263974	SS2:Input5000Reversed.txt
+5000	    324120	SS3:Input5000Reversed.txt
+5000	   1337911	HS:Input5000Sorted.txt
+5000	    111939	SS0:Input5000Sorted.txt
+5000	    112272	SS1:Input5000Sorted.txt
+5000	    110936	SS2:Input5000Sorted.txt
+5000	    172752	SS3:Input5000Sorted.txt
+ 500	    128645	HS:Input500Reversed.txt
+ 500	     20717	SS0:Input500Reversed.txt
+ 500	     18712	SS1:Input500Reversed.txt
+ 500	     22721	SS2:Input500Reversed.txt
+ 500	     26732	SS3:Input500Reversed.txt
+ 500	    128312	HS:Input500Sorted.txt
+ 500	     12364	SS0:Input500Sorted.txt
+ 500	      8688	SS1:Input500Sorted.txt
+ 500	      8353	SS2:Input500Sorted.txt
+ 500	     11695	SS3:Input500Sorted.txt
+  50	     13031	HS:Input50Reversed.txt
+  50	      4344	SS0:Input50Reversed.txt
+  50	      2673	SS1:Input50Reversed.txt
+  50	      3007	SS2:Input50Reversed.txt
+  50	      2339	SS3:Input50Reversed.txt
+  50	     13366	HS:Input50Sorted.txt
+  50	      2673	SS0:Input50Sorted.txt
+  50	      1337	SS1:Input50Sorted.txt
+  50	      1336	SS2:Input50Sorted.txt
+  50	      1002	SS3:Input50Sorted.txt
+
+Finished running Project4!

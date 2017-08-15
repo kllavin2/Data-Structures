@@ -16,7 +16,6 @@ import java.io.PrintStream;
 
 public class Project4 {
 
-
 	public static void main(String[] args) throws IOException{
 		RunTime timing = new RunTime();
 		BufferedReader 	    br; //Used for input file
@@ -29,7 +28,7 @@ public class Project4 {
 		if(args.length != 2){
 			System.out.println(
 					"Usage: Java Project 4 [path to folder of input files]"
-					+ "[path to folder of output files]");
+					+ "[path to output file]");
 			System.exit(1);
 		}
 		
@@ -50,7 +49,7 @@ public class Project4 {
 			inFolder = new File(args[0]);
 		}
 		catch (Exception e){
-			System.err.println("Incorrect file paths provided for input folder!");
+			System.err.println("Incorrect file path provided for input folder!");
 			throw e;
 		}		
 		
@@ -103,8 +102,14 @@ public class Project4 {
 			}
 			
 			//Copy array for shell sort
-			int ssArr[] = new int[n];
-			System.arraycopy(arr, 0, ssArr, 0, n);
+			int ss0Arr[] = new int[n];
+			int ss1Arr[] = new int[n];
+			int ss2Arr[] = new int[n];
+			int ss3Arr[] = new int[n];
+			System.arraycopy(arr, 0, ss0Arr, 0, n);
+			System.arraycopy(arr, 0, ss1Arr, 0, n);
+			System.arraycopy(arr, 0, ss2Arr, 0, n);
+			System.arraycopy(arr, 0, ss3Arr, 0, n);
 			
 			//Print original array
 			System.out.println("ORIGINAL ARRAY FROM FILE:");
@@ -117,21 +122,51 @@ public class Project4 {
 			long end = System.nanoTime();
 			timing.append(end - start, n, "HS:"+file.getName());
 			
+			//Shell sort 0
 			ShellSort SS = new ShellSort();
 			start = System.nanoTime();
-			SS.sort(ssArr);
+			SS.sort0(ss0Arr);
 			end = System.nanoTime();
-			timing.append(end - start, n, "SS:"+file.getName());
+			timing.append(end - start, n, "SS0:"+file.getName());
 			
-			//Print sorted array
+			//Shell Sort 1
+			start = System.nanoTime();
+			SS.sort1(ss1Arr);
+			end = System.nanoTime();
+			timing.append(end - start, n, "SS1:"+file.getName());
+			
+			//Shell Sort 2
+			start = System.nanoTime();
+			SS.sort2(ss2Arr);
+			end = System.nanoTime();
+			timing.append(end - start, n, "SS2:"+file.getName());
+			
+			//Shell Sort 3
+			start = System.nanoTime();
+			SS.sort3(ss3Arr);
+			end = System.nanoTime();
+			timing.append(end - start, n, "SS3:"+file.getName());
+			
+			//Print status of sorted arrays
 			System.out.println("HEAP SORT SORTED ARRAY:");
 			printArray(arr);
 
-			System.out.println("SHELL SORT SORTED ARRAY:");
-			printArray(ssArr);
+			System.out.println("SHELL SORT 0 SORTED ARRAY:");
+			printArray(ss0Arr);
+
+			System.out.println("SHELL SORT 1 SORTED ARRAY:");
+			printArray(ss1Arr);
+
+			System.out.println("SHELL SORT 2 SORTED ARRAY:");
+			printArray(ss2Arr);
+
+			System.out.println("SHELL SORT 3 SORTED ARRAY:");
+			printArray(ss3Arr);
 
 			//Print timing for this file
-			System.out.printf("\nSize: %d\nTime: %d\nFile: %s\n", n, end-start, file.getName());
+			System.out.printf("\n>Size: %d\n>Time: %d\n>File: %s\n\n", n, end-start, file.getName());
+
+			System.out.printf("FINISHED: %s\n\n", file.getName());
 			
 			//Close reader stream
 			br.close();
@@ -146,10 +181,28 @@ public class Project4 {
 		//Close writer stream
 		ps.close();
 	}
-
+	
+	//Prints array status, or entire array if small enough
 	static void printArray(int arr[]){
-		for(int i = 0; i < arr.length; ++i){
-			System.out.println(arr[i]);
+		if (arr.length <= 50){
+			for(int i = 0; i < arr.length; ++i){
+				System.out.printf("\t%d\n", arr[i]);
+			}
 		}
+		else{
+			System.out.println("\tArray size > 50, skipping printing of array.");
+		}
+		
+		System.out.printf("\tSorted: %s\n", String.valueOf(isSorted(arr)));
+	}
+	
+	//Checks if array is sorted
+	static boolean isSorted(int[] a){
+		for(int i = 0; i < a.length - 1; ++i){
+			if (a[i] > a[i+1]){
+				return false;
+			}
+		}		
+		return true;
 	}
 }
