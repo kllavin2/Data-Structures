@@ -7,11 +7,13 @@ public class ShellSort {
 		sort(arr, gaps);
 	}
 	
-	
+	//SS 1 w/ specified gaps
 	void sort1(int arr[]){
 		int[] gaps = {30341, 10111, 3371, 1123, 373, 149, 53, 17, 5, 1};
 		sort(arr, gaps); 
 	}
+	
+	//SS2 w/ specified gaps
 	void sort2(int arr[]){
 		int[] gaps = {29160, 9720, 3240, 1080, 360, 120, 60, 30, 10, 1};
 		sort(arr, gaps); 
@@ -35,6 +37,7 @@ public class ShellSort {
 		return;
     }
 	
+	//Generic SS to make use of input gaps array
 	private void sort(int[] arr, int[] gaps){
 		for(int gap : gaps){
 			if(gap > arr.length){

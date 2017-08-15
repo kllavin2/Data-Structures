@@ -22,7 +22,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 1000
->Time: 1130743
+>Time: 1129072
 >File: Input1000.txt
 
 FINISHED: Input1000.txt
@@ -48,7 +48,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 1000
->Time: 844716
+>Time: 862425
 >File: Input1000Reversed.txt
 
 FINISHED: Input1000Reversed.txt
@@ -74,7 +74,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 1000
->Time: 553343
+>Time: 570383
 >File: Input1000Sorted.txt
 
 FINISHED: Input1000Sorted.txt
@@ -100,7 +100,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 2000
->Time: 2721601
+>Time: 2743320
 >File: Input2000.txt
 
 FINISHED: Input2000.txt
@@ -126,7 +126,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 2000
->Time: 1886910
+>Time: 1860846
 >File: Input2000Reversed.txt
 
 FINISHED: Input2000Reversed.txt
@@ -152,7 +152,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 2000
->Time: 435390
+>Time: 474484
 >File: Input2000Sorted.txt
 
 FINISHED: Input2000Sorted.txt
@@ -472,7 +472,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 50
->Time: 7685
+>Time: 8019
 >File: Input50.txt
 
 FINISHED: Input50.txt
@@ -498,7 +498,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 500
->Time: 138335
+>Time: 133992
 >File: Input500.txt
 
 FINISHED: Input500.txt
@@ -524,7 +524,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 5000
->Time: 1163823
+>Time: 1288125
 >File: Input5000.txt
 
 FINISHED: Input5000.txt
@@ -550,7 +550,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 5000
->Time: 324120
+>Time: 603464
 >File: Input5000Reversed.txt
 
 FINISHED: Input5000Reversed.txt
@@ -576,7 +576,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 5000
->Time: 172752
+>Time: 173086
 >File: Input5000Sorted.txt
 
 FINISHED: Input5000Sorted.txt
@@ -602,7 +602,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 500
->Time: 26732
+>Time: 24059
 >File: Input500Reversed.txt
 
 FINISHED: Input500Reversed.txt
@@ -628,7 +628,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 500
->Time: 11695
+>Time: 11361
 >File: Input500Sorted.txt
 
 FINISHED: Input500Sorted.txt
@@ -948,7 +948,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 50
->Time: 2339
+>Time: 2005
 >File: Input50Reversed.txt
 
 FINISHED: Input50Reversed.txt
@@ -1268,7 +1268,7 @@ SHELL SORT 3 SORTED ARRAY:
 	Sorted: true
 
 >Size: 50
->Time: 1002
+>Time: 1336
 >File: Input50Sorted.txt
 
 FINISHED: Input50Sorted.txt
@@ -1276,80 +1276,80 @@ FINISHED: Input50Sorted.txt
 
 Runtime Metrics 
 Size:	Time:	Method+File:
-1000	    870778	HS:Input1000.txt
-1000	   1076945	SS0:Input1000.txt
-1000	   1067255	SS1:Input1000.txt
-1000	   2490373	SS2:Input1000.txt
-1000	   1130743	SS3:Input1000.txt
-1000	    385268	HS:Input1000Reversed.txt
-1000	    153706	SS0:Input1000Reversed.txt
-1000	    226884	SS1:Input1000Reversed.txt
-1000	    253281	SS2:Input1000Reversed.txt
-1000	    844716	SS3:Input1000Reversed.txt
-1000	    256956	HS:Input1000Sorted.txt
-1000	    115279	SS0:Input1000Sorted.txt
-1000	    101580	SS1:Input1000Sorted.txt
-1000	    101580	SS2:Input1000Sorted.txt
-1000	    553343	SS3:Input1000Sorted.txt
-2000	    605468	HS:Input2000.txt
-2000	    626185	SS0:Input2000.txt
-2000	    553677	SS1:Input2000.txt
-2000	    772540	SS2:Input2000.txt
-2000	   2721601	SS3:Input2000.txt
-2000	    518591	HS:Input2000Reversed.txt
-2000	    290371	SS0:Input2000Reversed.txt
-2000	    270656	SS1:Input2000Reversed.txt
-2000	    275001	SS2:Input2000Reversed.txt
-2000	   1886910	SS3:Input2000Reversed.txt
-2000	    526277	HS:Input2000Sorted.txt
-2000	     41434	SS0:Input2000Sorted.txt
-2000	     39429	SS1:Input2000Sorted.txt
-2000	     39429	SS2:Input2000Sorted.txt
-2000	    435390	SS3:Input2000Sorted.txt
-  50	     13031	HS:Input50.txt
-  50	      5346	SS0:Input50.txt
-  50	      4009	SS1:Input50.txt
-  50	      9356	SS2:Input50.txt
-  50	      7685	SS3:Input50.txt
- 500	    136999	HS:Input500.txt
- 500	     59477	SS0:Input500.txt
- 500	     58810	SS1:Input500.txt
- 500	     69836	SS2:Input500.txt
- 500	    138335	SS3:Input500.txt
-5000	   1590524	HS:Input5000.txt
-5000	    840037	SS0:Input5000.txt
-5000	    831015	SS1:Input5000.txt
-5000	   1798362	SS2:Input5000.txt
-5000	   1163823	SS3:Input5000.txt
-5000	   1350944	HS:Input5000Reversed.txt
-5000	    213852	SS0:Input5000Reversed.txt
-5000	    219199	SS1:Input5000Reversed.txt
-5000	    263974	SS2:Input5000Reversed.txt
-5000	    324120	SS3:Input5000Reversed.txt
-5000	   1337911	HS:Input5000Sorted.txt
-5000	    111939	SS0:Input5000Sorted.txt
-5000	    112272	SS1:Input5000Sorted.txt
+1000	    886817	HS:Input1000.txt
+1000	   1057565	SS0:Input1000.txt
+1000	   1031167	SS1:Input1000.txt
+1000	   2435908	SS2:Input1000.txt
+1000	   1129072	SS3:Input1000.txt
+1000	    387606	HS:Input1000Reversed.txt
+1000	    210176	SS0:Input1000Reversed.txt
+1000	    169745	SS1:Input1000Reversed.txt
+1000	    672631	SS2:Input1000Reversed.txt
+1000	    862425	SS3:Input1000Reversed.txt
+1000	    249939	HS:Input1000Sorted.txt
+1000	    165401	SS0:Input1000Sorted.txt
+1000	    109933	SS1:Input1000Sorted.txt
+1000	    147357	SS2:Input1000Sorted.txt
+1000	    570383	SS3:Input1000Sorted.txt
+2000	    603463	HS:Input2000.txt
+2000	    699363	SS0:Input2000.txt
+2000	    576063	SS1:Input2000.txt
+2000	   1159144	SS2:Input2000.txt
+2000	   2743320	SS3:Input2000.txt
+2000	    507899	HS:Input2000Reversed.txt
+2000	    326793	SS0:Input2000Reversed.txt
+2000	    310419	SS1:Input2000Reversed.txt
+2000	    377916	SS2:Input2000Reversed.txt
+2000	   1860846	SS3:Input2000Reversed.txt
+2000	    544654	HS:Input2000Sorted.txt
+2000	    248937	SS0:Input2000Sorted.txt
+2000	    227218	SS1:Input2000Sorted.txt
+2000	    227886	SS2:Input2000Sorted.txt
+2000	    474484	SS3:Input2000Sorted.txt
+  50	     13366	HS:Input50.txt
+  50	      8354	SS0:Input50.txt
+  50	      6683	SS1:Input50.txt
+  50	      9691	SS2:Input50.txt
+  50	      8019	SS3:Input50.txt
+ 500	    135997	HS:Input500.txt
+ 500	    209842	SS0:Input500.txt
+ 500	    190462	SS1:Input500.txt
+ 500	    205832	SS2:Input500.txt
+ 500	    133992	SS3:Input500.txt
+5000	   1562790	HS:Input5000.txt
+5000	    865432	SS0:Input5000.txt
+5000	    852067	SS1:Input5000.txt
+5000	   1569807	SS2:Input5000.txt
+5000	   1288125	SS3:Input5000.txt
+5000	   1323877	HS:Input5000Reversed.txt
+5000	    233900	SS0:Input5000Reversed.txt
+5000	    239247	SS1:Input5000Reversed.txt
+5000	    311087	SS2:Input5000Reversed.txt
+5000	    603464	SS3:Input5000Reversed.txt
+5000	   1346934	HS:Input5000Sorted.txt
+5000	    111938	SS0:Input5000Sorted.txt
+5000	    110602	SS1:Input5000Sorted.txt
 5000	    110936	SS2:Input5000Sorted.txt
-5000	    172752	SS3:Input5000Sorted.txt
- 500	    128645	HS:Input500Reversed.txt
- 500	     20717	SS0:Input500Reversed.txt
- 500	     18712	SS1:Input500Reversed.txt
- 500	     22721	SS2:Input500Reversed.txt
- 500	     26732	SS3:Input500Reversed.txt
- 500	    128312	HS:Input500Sorted.txt
- 500	     12364	SS0:Input500Sorted.txt
+5000	    173086	SS3:Input5000Sorted.txt
+ 500	    125972	HS:Input500Reversed.txt
+ 500	     22722	SS0:Input500Reversed.txt
+ 500	     20717	SS1:Input500Reversed.txt
+ 500	     27066	SS2:Input500Reversed.txt
+ 500	     24059	SS3:Input500Reversed.txt
+ 500	    124302	HS:Input500Sorted.txt
+ 500	     10024	SS0:Input500Sorted.txt
  500	      8688	SS1:Input500Sorted.txt
  500	      8353	SS2:Input500Sorted.txt
- 500	     11695	SS3:Input500Sorted.txt
-  50	     13031	HS:Input50Reversed.txt
-  50	      4344	SS0:Input50Reversed.txt
-  50	      2673	SS1:Input50Reversed.txt
-  50	      3007	SS2:Input50Reversed.txt
-  50	      2339	SS3:Input50Reversed.txt
-  50	     13366	HS:Input50Sorted.txt
-  50	      2673	SS0:Input50Sorted.txt
-  50	      1337	SS1:Input50Sorted.txt
-  50	      1336	SS2:Input50Sorted.txt
-  50	      1002	SS3:Input50Sorted.txt
+ 500	     11361	SS3:Input500Sorted.txt
+  50	     12363	HS:Input50Reversed.txt
+  50	      3676	SS0:Input50Reversed.txt
+  50	      4344	SS1:Input50Reversed.txt
+  50	      3341	SS2:Input50Reversed.txt
+  50	      2005	SS3:Input50Reversed.txt
+  50	     13700	HS:Input50Sorted.txt
+  50	      3008	SS0:Input50Sorted.txt
+  50	      1670	SS1:Input50Sorted.txt
+  50	      1337	SS2:Input50Sorted.txt
+  50	      1336	SS3:Input50Sorted.txt
 
 Finished running Project4!
