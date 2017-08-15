@@ -8,48 +8,54 @@
  * and shell sorts iteratively 
  */
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintStream;
-import java.util.Scanner;
 
 public class Project4 {
 
 
-	public static void main(String[] args) throws IOException 
-	{
+	public static void main(String[] args) throws IOException{
 		RunTime timing = new RunTime();
 		BufferedReader 	    br; //Used for input file
 		FileReader     	    fr; //Used for input file
 		PrintStream    		ps; //Used for output file
 		FileOutputStream 	fos; //Used for output file
-				
+		File 				inFolder;
+		
 		//Check for command line arguments
-		if(args.length != 2)
-		{
+		if(args.length != 2){
 			System.out.println(
-					"Usage: Java Project 4 [input file pathname]"
-					+ "[Output file pathname]");
+					"Usage: Java Project 4 [path to folder of input files]"
+					+ "[path to folder of output files]");
 			System.exit(1);
 		}
 		
-		//Attempt to open file IO
 		try
 		{
-			//Open Reader
-			fr = new FileReader(args[0]);
-			br = new BufferedReader(fr);
 			//Open writer
 			fos = new FileOutputStream(args[1]);
 			ps = new PrintStream(fos);
-			//System.setOut(ps);
+			System.setOut(ps);
 		}
 		catch(Exception ioExcept)
 		{
 			System.err.println(ioExcept.toString());
 			return;
 		}
+		
+		try{
+			inFolder = new File(args[0]);
+		}
+		catch (Exception e){
+			System.err.println("Incorrect file paths provided for input folder!");
+			throw e;
+		}		
+		
+		//Get list of files
+		File inFiles[] = inFolder.listFiles();		
 		
 		//Notify user via console
 		System.err.println("Running Project4");
@@ -59,50 +65,86 @@ public class Project4 {
 		System.out.println("All output redirected from console to:\n"
 				+ args[1]);
 		
-		
-		HeapSort HS = new HeapSort();
-		int n = 50;
-		int arr[] = new int[n];
-		
-		String currentLine;
-		
-		int pos = 0;
-		while ((currentLine = br.readLine()) != null){
-			//System.out.println(currentLine);
-			arr[pos] = Integer.parseInt(currentLine);
-			++pos;
+		//Iterate over files
+		for (File file : inFiles){
+			System.out.printf("Parsing: %s\n", file.getName());
+			try
+			{
+				//Open Reader
+				fr = new FileReader(file.getAbsolutePath());
+				br = new BufferedReader(fr);
+				//System.setOut(ps);
+			}
+			catch(Exception ioExcept)
+			{
+				System.err.println(ioExcept.toString());
+				return;
+			}
+			//Get array size
+			int n = 0;			
+			while (br.readLine() != null){
+				++n;
+			}
+			br.close();
+			
+			//Create array
+			int arr[] = new int[n];
+
+			//Open Reader
+			fr = new FileReader(file.getAbsolutePath());
+			br = new BufferedReader(fr);
+			
+			//Populate array
+			int pos = 0;
+			String currentLine;
+			while ((currentLine = br.readLine()) != null){
+				arr[pos] = Integer.parseInt(currentLine);
+				++pos;
+			}
+			
+			//Copy array for shell sort
+			int ssArr[] = new int[n];
+			System.arraycopy(arr, 0, ssArr, 0, n);
+			
+			//Print original array
+			System.out.println("ORIGINAL ARRAY FROM FILE:");
+			printArray(arr);
+			
+			//Run and time Heap Sort			
+			HeapSort HS = new HeapSort();
+			long start = System.nanoTime();
+			HS.heapSort(arr, n);
+			long end = System.nanoTime();
+			timing.append(end - start, n, "HS:"+file.getName());
+			
+			ShellSort SS = new ShellSort();
+			start = System.nanoTime();
+			SS.sort(ssArr);
+			end = System.nanoTime();
+			timing.append(end - start, n, "SS:"+file.getName());
+			
+			//Print sorted array
+			System.out.println("HEAP SORT SORTED ARRAY:");
+			printArray(arr);
+
+			System.out.println("SHELL SORT SORTED ARRAY:");
+			printArray(ssArr);
+
+			//Print timing for this file
+			System.out.printf("\nSize: %d\nTime: %d\nFile: %s\n", n, end-start, file.getName());
+			
+			//Close reader stream
+			br.close();
 		}
-		//String line = br.readLine();//to read multiple integer line
-		//String[] strs = line.trim().split("\\s+");
-		
-		//Print original array
-		printArray(arr);
-		
-		//Start timer
-		long start = System.nanoTime();
-		
-		//Heap Sort Array
-		HS.sort(arr);
-		
-		//End timer
-		long end = System.nanoTime();
-		System.out.println("SORTED ARRAY");
-		//Print sorted array
-		printArray(arr);
-		//System.out.print(HS);
-		//Runtime metrics		
-		timing.append(end - start, n);
-		//Display Determinant
-		//System.out.printf("Determinant: %d\n");
-		
+		//Display Timing
 		System.out.println(timing);
-		//Close reader stream
-		br.close();
-		//Close writer stream
-		ps.close();		
+		
 		//Notify of completion
-		System.err.println("Finished running Project3!");
-		System.out.println("Finished running Project3!");
+		System.err.println("Finished running Project4!");
+		System.out.println("Finished running Project4!");
+
+		//Close writer stream
+		ps.close();
 	}
 
 	static void printArray(int arr[]){
