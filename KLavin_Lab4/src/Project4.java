@@ -118,7 +118,7 @@ public class Project4 {
 			//Run and time Heap Sort			
 			HeapSort HS = new HeapSort();
 			long start = System.nanoTime();
-			HS.heapSort(arr, n);
+			HS.hSort(arr, n);
 			long end = System.nanoTime();
 			timing.append(end - start, n, "HS:"+file.getName());
 			

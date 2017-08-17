@@ -1,6 +1,6 @@
 /*----------------------------------------------------------------
  *  These methods determine the runtime metrics for Project2
- *  @version    1.0     2017-08-17
+ *  @version    1.0     2017-08-16
  *  @author     Kristi Lavin
  *----------------------------------------------------------------*/
 public class RunTime {

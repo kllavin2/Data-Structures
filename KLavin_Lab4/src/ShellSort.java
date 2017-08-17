@@ -1,4 +1,10 @@
-
+/*
+ * Implementation of Shell sort 
+ * @Version 1.0 
+ * @Author K. Lavin
+ * Credit: 
+ * http://www.geeksforgeeks.org/shellsort/
+ */
 public class ShellSort {
  
 	//SS using Knuth's sequence
@@ -38,8 +44,8 @@ public class ShellSort {
     }
 	
 	//Generic SS to make use of input gaps array
-	private void sort(int[] arr, int[] gaps){
-		for(int gap : gaps){
+	private void sort(int[] arr, int[] gapseq){
+		for(int gap : gapseq){
 			if(gap > arr.length){
 				continue;
 			}
